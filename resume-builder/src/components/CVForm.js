@@ -2,9 +2,10 @@ import React from 'react';
 import Personal from './Personal';
 import Education from './Education';
 import Experience from './Experience';
+import styled from 'styled-components';
 function CVForm() {
     return (
-        <React.Fragment>
+        <Wrapper>
             <form>
                 <Personal />
                 <br />
@@ -14,7 +15,8 @@ function CVForm() {
                 <br />
                 <Experience />
             </form>
-        </React.Fragment>
+        </Wrapper>
     );
 }
+const Wrapper = styled.div``;
 export default CVForm;

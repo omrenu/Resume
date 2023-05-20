@@ -1,10 +1,12 @@
 import React from 'react';
-import CVForm from './components/CVForm';
+import Header from './components/Header';
+import Main from './components/Main';
 function App() {
   return (
-    <div>
-      <CVForm />
-    </div>
+    <React.Fragment>
+      <Header />
+      <Main />
+    </React.Fragment>
   );
 }
 
