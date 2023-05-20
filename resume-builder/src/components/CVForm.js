@@ -6,15 +6,13 @@ import styled from 'styled-components';
 function CVForm() {
     return (
         <Wrapper>
-            <form>
-                <Personal />
-                <br />
-                <br />
-                <Education />
-                <br />
-                <br />
-                <Experience />
-            </form>
+            <Personal />
+            <br />
+            <br />
+            <Education />
+            <br />
+            <br />
+            <Experience />
         </Wrapper>
     );
 }
