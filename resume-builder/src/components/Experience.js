@@ -1,4 +1,4 @@
-function Experience() {
+const Experience = () => {
     return (
         <form>
             <input type="text" name="" placeholder="Company" />

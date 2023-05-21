@@ -1,6 +1,6 @@
 import React from 'react';
 import CVForm from './CVForm';
-function Main() {
+const Main = () => {
     return (
         <CVForm />
     );

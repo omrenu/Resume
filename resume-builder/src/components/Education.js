@@ -1,4 +1,4 @@
-function Education() {
+const Education = () => {
     return (
         <form>
             <input type="text" name="" placeholder="University Name" />

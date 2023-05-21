@@ -1,5 +1,5 @@
 import React from 'react';
-function Personal() {
+const Personal = () => {
     return (
         <form>
             <input type="text" name="" placeholder="First name" />

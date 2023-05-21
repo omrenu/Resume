@@ -3,7 +3,7 @@ import Personal from './Personal';
 import Education from './Education';
 import Experience from './Experience';
 import styled from 'styled-components';
-function CVForm() {
+const CVForm = () => {
     return (
         <Wrapper>
             <Personal />

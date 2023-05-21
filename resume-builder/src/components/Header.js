@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { FaBriefcase } from "react-icons/fa";
 
-function Header() {
+const Header = () => {
     return (
         <StyledHeader>
             <Logo>
