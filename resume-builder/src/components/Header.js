@@ -1,17 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FaBriefcase } from "react-icons/fa";
-
-const Header = () => {
-    return (
-        <StyledHeader>
-            <Logo>
-                <FaBriefcase />
-            </Logo>
-            <Title> CV Creator </Title>
-        </StyledHeader>
-    )
-}
 const StyledHeader = styled.header`
  display:flex;
  align-items:center;
@@ -24,9 +13,20 @@ const Logo = styled.div`
   font-size: 4rem;
   margin-right: 2rem;
 `;
-const Title = styled.h1`
+const AppName = styled.h1`
   font-family: "Montserrat", sans-serif;
 `;
+const Header = () => {
+    return (
+        <StyledHeader>
+            <Logo>
+                <FaBriefcase />
+            </Logo>
+            <AppName> CV Creator </AppName>
+        </StyledHeader>
+    )
+}
+
 
 
 export default Header;
