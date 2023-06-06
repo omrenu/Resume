@@ -12,6 +12,8 @@ const GlobalStyle = createGlobalStyle`
   html {
     font-size: 62.5%;
     line-height: 1.6;
+    position: relative;
+    min-height: 100%;
   }
 
   body {
@@ -45,6 +47,7 @@ const GlobalStyle = createGlobalStyle`
 
   button,
   input {
+    border:none;
     outline: none;
     color: inherit;
     font-family: inherit;
